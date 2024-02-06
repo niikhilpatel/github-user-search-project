@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Search({ setData, setIsLoading }) {
-  const [userName, setUserName] = useState("Yash5467");
+  const [userName, setUserName] = useState("niikhilpatel");
   const handleClick = async () => {
     setIsLoading(true);
     const data = await fetch(`https://api.github.com/users/${userName}`);
